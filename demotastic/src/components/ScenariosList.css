@@ -1,0 +1,14 @@
+.scenario-card {
+    width: 1260px;
+}
+
+.scenario-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scenario-modal-box {
+  background-color: rgba(0, 0, 0, 0.80);
+  padding: 10px;
+}

@@ -1,0 +1,10 @@
+.details-zoom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.details-zoom-box {
+    background-color: rgba(0, 0, 0, 0.70);
+    padding: 10px;
+}
