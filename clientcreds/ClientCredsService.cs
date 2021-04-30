@@ -35,7 +35,7 @@ namespace clientcreds
 
             var result = await msalApp.AcquireTokenForClient(_clientCredsConfig.Scopes).ExecuteAsync();
 
-            Console.WriteLine($"Access Token >>\n{Common.HORIZ_RULE}\n{result.AccessToken}\n{Common.HORIZ_RULE}");
+            Console.WriteLine($"Access Token ↓↓↓\n{Common.HORIZ_RULE}\n{result.AccessToken}\n{Common.HORIZ_RULE}");
             Console.WriteLine($"Scopes: {JsonSerializer.Serialize(result.Scopes)}\n{Common.HORIZ_RULE}");
         }
 
@@ -51,7 +51,7 @@ namespace clientcreds
 
             var result = await msalApp.AcquireTokenOnBehalfOf(_clientCredsConfig.Scopes, userAssertion).ExecuteAsync();
 
-            Console.WriteLine($"{Common.HORIZ_RULE}\nAccess Token >>\n{Common.HORIZ_RULE}\n{result.AccessToken}\n{Common.HORIZ_RULE}");
+            Console.WriteLine($"{Common.HORIZ_RULE}\nAccess Token ↓↓↓\n{Common.HORIZ_RULE}\n{result.AccessToken}\n{Common.HORIZ_RULE}");
             Console.WriteLine($"Scopes: {JsonSerializer.Serialize(result.Scopes)}\n{Common.HORIZ_RULE}");
         }
 
@@ -68,10 +68,10 @@ namespace clientcreds
                     return Task.FromResult(0);
                 }).ExecuteAsync();
 
-            Console.WriteLine($"Access Token >>\n{Common.HORIZ_RULE}\n{result.AccessToken}\n{Common.HORIZ_RULE}");
+            Console.WriteLine($"Access Token ↓↓↓\n{Common.HORIZ_RULE}\n{result.AccessToken}\n{Common.HORIZ_RULE}");
             Console.WriteLine($"Scopes: {JsonSerializer.Serialize(result.Scopes)}\n{Common.HORIZ_RULE}");
 
-            Console.WriteLine($"View at >>\n{Common.HORIZ_RULE}\nhttps://jwt.ms/?#access_token={result.AccessToken}\n{Common.HORIZ_RULE}");
+            Console.WriteLine($"View at: \n{Common.HORIZ_RULE}\nhttps://jwt.ms/?#access_token={result.AccessToken}\n{Common.HORIZ_RULE}");
         }
     }
 }
