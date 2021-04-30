@@ -38,6 +38,7 @@ namespace clientcreds
             Console.Write(">> ");
             var choice = Console.ReadLine();
 
+            
             switch(choice) 
             {
                 case "1":
@@ -48,7 +49,7 @@ namespace clientcreds
                 case "2":
                     Console.Clear();
                     Console.WriteLine($"{Common.HORIZ_RULE}\nOn-behalf of Flow...\n{Common.HORIZ_RULE}");
-                    Console.WriteLine($"Press Enter the Identity Token ⮧⮧\n{Common.HORIZ_RULE}");
+                    Console.WriteLine($"Press Enter the Identity Token >>\n{Common.HORIZ_RULE}");
                     var idToken = Console.ReadLine().Trim();
                     await clientCredsService.GetAccessTokenAsyncOBO(idToken);
                     break;
@@ -61,6 +62,8 @@ namespace clientcreds
                     Console.Clear();
                     Console.WriteLine("Later...");
                     return;
+                case "":
+                    break;
                 default:
                     Console.Clear();
                     Console.Error.WriteLine($"{Common.HORIZ_RULE}\nInvalid Choice!\n{Common.HORIZ_RULE}");    
@@ -68,7 +71,7 @@ namespace clientcreds
             }
             
             Console.WriteLine($"Press <ENTER> to continue...");
-            Console.Read();
+            Console.ReadLine();
             Console.Clear();
             await ShowMenuAsync(services);
         }
