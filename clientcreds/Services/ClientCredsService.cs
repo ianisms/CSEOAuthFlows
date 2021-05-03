@@ -41,7 +41,7 @@ namespace ClientCreds.Services
 
             _logger.LogInformation($"Access Token ↓↓↓\n{Common.HORIZ_RULE}\n{result.AccessToken}\n{Common.HORIZ_RULE}");
             _logger.LogInformation($"Scopes: {JsonSerializer.Serialize(result.Scopes)}\n{Common.HORIZ_RULE}");
-            _logger.LogInformation($"View at ↓↓↓: \n{Common.HORIZ_RULE}\nhttps://jwt.ms/?#access_token={result.AccessToken}\n{Common.HORIZ_RULE}");
+            _logger.LogInformation($"View at ↓↓↓\n{Common.HORIZ_RULE}\nhttps://jwt.ms/?#access_token={result.AccessToken}\n{Common.HORIZ_RULE}");
         }
 
         public async Task GetAccessTokenAsyncOBO(string idToken)
@@ -58,7 +58,7 @@ namespace ClientCreds.Services
 
             _logger.LogInformation($"{Common.HORIZ_RULE}\nAccess Token ↓↓↓\n{Common.HORIZ_RULE}\n{result.AccessToken}\n{Common.HORIZ_RULE}");
             _logger.LogInformation($"Scopes: {JsonSerializer.Serialize(result.Scopes)}\n{Common.HORIZ_RULE}");
-            _logger.LogInformation($"View at ↓↓↓: \n{Common.HORIZ_RULE}\nhttps://jwt.ms/?#access_token={result.AccessToken}\n{Common.HORIZ_RULE}");
+            _logger.LogInformation($"View at ↓↓↓\n{Common.HORIZ_RULE}\nhttps://jwt.ms/?#access_token={result.AccessToken}\n{Common.HORIZ_RULE}");
         }
 
         public async Task GetAccessTokenAsyncDeviceCode()
@@ -76,7 +76,7 @@ namespace ClientCreds.Services
 
             _logger.LogInformation($"Access Token ↓↓↓\n{Common.HORIZ_RULE}\n{result.AccessToken}\n{Common.HORIZ_RULE}");
             _logger.LogInformation($"Scopes: {JsonSerializer.Serialize(result.Scopes)}\n{Common.HORIZ_RULE}");
-            _logger.LogInformation($"View at ↓↓↓: \n{Common.HORIZ_RULE}\nhttps://jwt.ms/?#access_token={result.AccessToken}\n{Common.HORIZ_RULE}");
+            _logger.LogInformation($"View at ↓↓↓\n{Common.HORIZ_RULE}\nhttps://jwt.ms/?#access_token={result.AccessToken}\n{Common.HORIZ_RULE}");
         }
     }
 }
