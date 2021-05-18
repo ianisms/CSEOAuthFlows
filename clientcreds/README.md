@@ -15,6 +15,7 @@
         }
     }
     ```
+4. Set appsettings.local.json to cpoy if newer in settings.
 
 ## Running
 
