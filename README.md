@@ -30,5 +30,5 @@ Demo app repo to demonstrate the different OAuth 2.0 flows as implemented by the
 
 ## Apps
 
-- [demotastic](demotastic) - React JS App that demonstrates OIDC, the implicit flow, and the auth code flow.
-- [clientcreds](clientcreds) - .NET Console App that demonstrates the client credentials flow, device code flow, and the on-behalf-of flow.
+- [demotastic](demotastic) - React JS App that demonstrates OIDC, the [implicit flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-implicit-grant-flow), and the [auth code flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow).
+- [clientcreds](clientcreds) - .NET Console App that demonstrates the [client credentials flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow), the [device code flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-device-code), and the [on-behalf-of flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow).
