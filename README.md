@@ -27,6 +27,7 @@ Demo app repo to demonstrate the different OAuth 2.0 flows as implemented by the
   8. Click on New client secret.
      1. Enter Default for description.
      2. Click Add.
+     3. Be sure to save the generated value somewhere and make sure you do not check it into a repo ;)
 
 ## Apps
 
