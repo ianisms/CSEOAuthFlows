@@ -22,3 +22,7 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## Scenarios
+
+This list of scenarios with associated data can be found in [src/components/ScenariosList.js](src/components/ScenariosList.js)
