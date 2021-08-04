@@ -18,7 +18,7 @@
         }
     }
     ```
-4. Set appsettings.local.json to cpoy if newer in settings.
+4. Set appsettings.local.json to copy if newer in settings.
 
 ### Running
 
