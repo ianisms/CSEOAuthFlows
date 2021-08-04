@@ -1,6 +1,9 @@
-# Getting Started
+# Demotastic
+React JS App that demonstrates OIDC, the implicit flow, and the auth code flow
 
-## Setup
+## Getting Started
+
+### Setup
 
 1. Complete the app registration as detailed in [Common Setup](../../../#common-setup).
 2. Copy .env to .env.development.local
@@ -14,7 +17,7 @@
     REACT_APP_LOGIN_HINT=<YOUR_USER_NAME>
     ```
 
-## Running
+### Running
 
 In the project directory, you can run:
 
@@ -23,6 +26,6 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Scenarios
+### Scenarios
 
 This list of scenarios with associated data can be found in [src/components/ScenariosList.js](src/components/ScenariosList.js)
