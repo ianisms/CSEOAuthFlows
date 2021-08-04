@@ -1,6 +1,9 @@
-# Getting Started
+# Clientcreds
+.NET Console App that demonstrates the [client credentials flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow), the [device code flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-device-code), and the [on-behalf-of flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow).
 
-## Setup
+## Getting Started
+
+### Setup
 
 1. Complete the app registration as detailed in [Common Setup](../../../#common-setup).
 2. Copy appsettings.json to appsettings.local.json
@@ -17,7 +20,7 @@
     ```
 4. Set appsettings.local.json to cpoy if newer in settings.
 
-## Running
+### Running
 
 In the project directory, you can run:
 
